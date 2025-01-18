@@ -18,7 +18,7 @@ export const Hero = () => {
               <span className="block text-blue-200">Nuer E-learning</span>
             </h1>
             <p className="mt-6 max-w-lg mx-auto text-center text-xl text-blue-100 sm:max-w-3xl">
-              Access quality education in Nuer language and culture. Join our community of learners and embrace knowledge that celebrates our heritage.
+              Access quality education in Nuer language and culture. Join our community of learners and embrace knowledge that reflects our heritage.
             </p>
             <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-1 sm:gap-5">
