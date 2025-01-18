@@ -28,16 +28,16 @@ export const Contact = () => {
   };
 
   return (
-    <div className="bg-white py-12" id="contact">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="bg-white py-12 px-4 sm:px-6 lg:px-8" id="contact">
+      <div className="max-w-7xl mx-auto">
         <div className="text-center">
           <h2 className="text-base text-blue-600 font-semibold tracking-wide uppercase">Contact Us</h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             Get in Touch
           </p>
         </div>
-        <div className="mt-10 max-w-lg mx-auto">
-          <form onSubmit={handleSubmit} className="space-y-6 bg-white shadow-lg rounded-lg p-8">
+        <div className="mt-10 mx-auto max-w-md sm:max-w-lg">
+          <form onSubmit={handleSubmit} className="space-y-6 bg-white shadow-lg rounded-lg p-6 sm:p-8">
             {formStatus && (
               <div className={`p-4 rounded-md ${formStatus.includes('success') ? 'bg-green-50 text-green-800' : 'bg-blue-50 text-blue-800'}`}>
                 {formStatus}
@@ -52,7 +52,7 @@ export const Contact = () => {
                 name="name"
                 id="name"
                 required
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-4 py-2"
               />
             </div>
             <div>
@@ -64,7 +64,7 @@ export const Contact = () => {
                 name="email"
                 id="email"
                 required
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-4 py-2"
               />
             </div>
             <div>
@@ -76,7 +76,7 @@ export const Contact = () => {
                 name="message"
                 rows={4}
                 required
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 px-4 py-2"
               />
             </div>
             <div>
