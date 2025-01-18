@@ -1,4 +1,5 @@
 import { ChevronRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const courses = [
   {
@@ -40,7 +41,7 @@ export const Courses = () => {
         <div className="mt-10 grid gap-8 md:grid-cols-2 lg:grid-cols-2">
           {courses.map((course) => (
             <div key={course.title} className="bg-white overflow-hidden shadow-lg rounded-lg transition-transform duration-300 hover:scale-105">
-              <a href={course.link} className="block">
+              <Link to={course.link} className="block">
                 <div className="relative h-64">
                   <img className="w-full h-full object-cover" src={course.image} alt={course.title} />
                   <div className="absolute inset-0 bg-black bg-opacity-20 transition-opacity duration-300 hover:bg-opacity-30" />
@@ -53,7 +54,7 @@ export const Courses = () => {
                     <ChevronRight className="ml-2 h-5 w-5" />
                   </div>
                 </div>
-              </a>
+              </Link>
             </div>
           ))}
         </div>
