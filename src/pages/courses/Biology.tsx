@@ -20,7 +20,7 @@ const Biology = () => {
       <div className="min-h-screen bg-gray-900 text-white py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="mb-8">
-            <Link to="src/components/sections/Courses.tsx">
+            <Link to="/">
               <Button variant="ghost" className="text-blue-400 hover:text-blue-300">
                 <ArrowLeft className="mr-2 h-4 w-4" />
                 Back to Courses
