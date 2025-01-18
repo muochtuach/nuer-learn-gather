@@ -15,9 +15,7 @@ export const Navbar = () => {
           
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-6">
-            <a href="/" className="text-blue-600 hover:text-green-500 text-sm font-medium">
-              Home
-            </a>
+           
             <a href="#about" className="text-blue-600 hover:text-green-500 text-sm font-medium">
               About
             </a>
